@@ -4,5 +4,5 @@ class RoomMessage < ApplicationRecord
 
   def as_json(options)
     super(options).merge(user_avatar_url: user.gravatar_url)
-  ende are going to add some data in the room page in order to use them via Javascript to subscribe to the appropriate stre
+  end
 end
